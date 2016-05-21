@@ -1,0 +1,6 @@
+{
+  "name": "LED Cube",
+  "tagline": "3x3x3 LED Cube Demo Code",
+  "body": "LEDCube\r\nAuthor: Robert Gallup (robertgallup.com, github.com/robertgallup)\r\nDate: 8/4/2015\r\nVersion: 1.0\r\n\r\nArduino Code for running a 3x3x3 LED cube. The shield supported is sold by Radio Shack, and this code was derived from their original code.\r\n\r\nExtensive modifications have been made:\r\n\r\n* All animation data was placed in program memory (PROGMEM). This allows many more animations to be used.\r\n* Animation data was moved to a separate .h tab to make it easier to edit and understand\r\n* New animations were added\r\n* Total number of animations is calculated from the data rather than having to enter it manually\r\n* Many more comments were added (some of them may be informative)\r\n* Animation function was changed to display an arbitrary animation. This allows more flexibility in sequencing animation. The sample program displays them sequentially, but that could easily be changed to support random sequencing, or sequencing based on user input.",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
